@@ -50,7 +50,7 @@ public class AnuncioTest {
 		driver.findElement(By.linkText("Nuevo anuncio")).click();
 		
 		driver.findElement(By.name("nombre")).sendKeys("Michel");
-		driver.findElement(By.name("asunto")).sendKeys("Vendo moto roja");
+		driver.findElement(By.name("asunto")).sendKeys("Vendo moto verde");
 		driver.findElement(By.name("comentario")).sendKeys("Un comentario muy largo...");
 		
 		driver.findElement(By.id("enviar")).click();
